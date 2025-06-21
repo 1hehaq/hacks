@@ -18,9 +18,7 @@ cat urls.txt | hinject -v
 <br>
 <br>
 
-```
-→ hinject -h
-
+```yaml
 Usage of hinject:
   -v    be verbose
 ```
