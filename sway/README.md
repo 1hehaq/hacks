@@ -10,3 +10,11 @@
 ```bash
 cat urls.txt | sway
 ```
+`OR`
+```bash
+cat urls.txt | sway | grep '="200"'
+```
+`OR` <kbd>chain with other tools</kbd>
+```bash
+subfinder -d hilton.com -silent | httpx -silent -rl 100 -t 100 | sway
+```
